@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10sp"
+            android:gravity="center"
+            android:layout_margin="80dp"
+            android:textColor="#C60043"
+            android:textSize="25dp"
+            android:text="Say hello to your new app" />
+
+        <EditText android:inputType="textEmailAddress"
+            android:drawableTop="@drawable/ic_baseline_person"
+            android:padding="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:hint="Insira seu e-mail" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Login" />
+
+
+        <EditText android:inputType="numberPassword"
+            android:drawableTop="@drawable/ic_baseline_lock"
+            android:padding="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Insira sua senha"
+            android:layout_marginBottom="10dp"/>  <!-- Remove o texto in-->
+
+
+
+    </LinearLayout>
+</LinearLayout>
