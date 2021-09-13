@@ -31,6 +31,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:textColor="@android:color/primary_text_dark_nodisable"
+            android:layout_margin="30dp"
             android:text="Log in" />
 
 
