@@ -22,32 +22,28 @@
             android:textSize="25dp"
             android:text="Say hello to your new app" />
 
-        <EditText android:inputType="textEmailAddress"
-            android:drawableTop="@drawable/ic_baseline_person"
-            android:padding="10sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:hint="Insira seu e-mail" />
+
 
         <Button
             android:layout_width="180dp"
-            android:layout_height="80dp"
-            android:background="@android:color/holo_blue_bright"
+            android:layout_height="40dp"
+            android:background="#E4467C"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
-            android:text="Login" />
+            android:textColor="@android:color/primary_text_dark_nodisable"
+            android:text="Log in" />
 
 
-        <EditText android:inputType="numberPassword"
-            android:drawableTop="@drawable/ic_baseline_lock"
-            android:padding="10sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
             android:layout_gravity="center"
-            android:hint="Insira sua senha"
-            android:layout_marginBottom="10dp"/>  <!-- Remove o texto in-->
+            android:layout_marginBottom="10dp"
+            android:textColor="#E4467C"
+            android:text="Sing Up" />
+
+
 
 
 
