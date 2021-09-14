@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+    tools:context=".cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,7 +19,7 @@
 
             android:textColor="#C60043"
             android:drawableTop="@drawable/ic_baseline_arrow_back_ios_24"
-             />
+            />
         <View
             android:layout_height="2dp"
             android:layout_width="match_parent"
@@ -31,23 +32,42 @@
             android:layout_marginTop="3dp"
             android:textColor="#C60043"
             android:textSize="33sp"
-            android:text="Sign in" />
+            android:text="Create new account" />
 
+        <EditText android:inputType="text"
+            android:padding="10sp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:hint="Full name " />
 
+        <EditText android:inputType="number"
+            android:padding="10sp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:hint="Phone number" />
 
         <EditText android:inputType="textEmailAddress"
             android:padding="10sp"
-            android:layout_width="wrap_content"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
             android:hint="E-mail or phone number" />
 
-        <EditText android:inputType="numberPassword"
+        <EditText
+            android:inputType="numberPassword"
             android:padding="10sp"
-            android:layout_width="wrap_content"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textSize="18sp"
             android:layout_marginTop="10dp"
             android:hint="Passaword"
             android:layout_marginBottom="10dp"/>  <!-- Remove o texto in-->
@@ -62,28 +82,9 @@
             android:layout_marginBottom="10dp"
             android:textColor="@android:color/primary_text_dark_nodisable"
             android:layout_margin="30dp"
-            android:text="Log in" />
+            android:text="Sign Uo" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="10sp"
-            android:gravity="center"
-            android:layout_margin="40dp"
-            android:textSize="20sp"
-            android:text="Or" />
 
-        <Button
-            android:textAllCaps="false"
-            android:layout_width="180dp"
-            android:layout_height="40dp"
-            android:background="#1E34AF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:textColor="@android:color/primary_text_dark_nodisable"
-            android:layout_margin="30dp"
-            android:text="Log with Facebook " />
 
-        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
