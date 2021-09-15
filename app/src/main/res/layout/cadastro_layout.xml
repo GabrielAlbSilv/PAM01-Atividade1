@@ -41,7 +41,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
-            android:hint="Full name " />
+            android:hint="Full name "
+            android:background = "@drawable/textocaixa"
+            />
 
         <EditText android:inputType="number"
             android:padding="10sp"
@@ -50,7 +52,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
-            android:hint="Phone number" />
+            android:hint="Phone number"
+            android:background = "@drawable/textocaixa"
+            />
 
         <EditText android:inputType="textEmailAddress"
             android:padding="10sp"
@@ -59,7 +63,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
-            android:hint="E-mail or phone number" />
+            android:hint="E-mail or phone number"
+            android:background = "@drawable/textocaixa"
+            />
 
         <EditText
             android:inputType="numberPassword"
@@ -70,13 +76,15 @@
             android:textSize="18sp"
             android:layout_marginTop="10dp"
             android:hint="Passaword"
-            android:layout_marginBottom="10dp"/>  <!-- Remove o texto in-->
+            android:layout_marginBottom="10dp"
+            android:background = "@drawable/textocaixa"
+            />
 
         <Button
             android:textAllCaps="false"
+            android:background = "@drawable/botaorosa"
             android:layout_width="180dp"
             android:layout_height="40dp"
-            android:background="#E4467C"
             android:layout_gravity="center"
             android:layout_marginTop="45dp"
             android:layout_marginBottom="10dp"
